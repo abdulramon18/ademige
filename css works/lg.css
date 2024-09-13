@@ -1,0 +1,71 @@
+nav {
+	margin-top: 20px;
+	display: flex;
+
+
+}
+.mod{
+	display: flex;
+}
+.logo{
+padding-left: 50px;
+
+}
+.navrule{
+	display: flex;
+	justify-content: space-between;
+}
+/* .one{
+	display: flex;
+	column-gap: 40px;
+	padding-left: 80px;
+} */
+ span{
+	display: flex;
+	column-gap: 40px;
+	padding-left: 90px;
+
+ }
+ul {
+
+list-style-type: none;
+column-gap: 20px;
+display: flex;
+
+}
+
+
+li {
+margin: 0 60px;
+
+
+}
+button {
+	
+	border: 0;
+	outline: 0;
+	background:wheat;
+	color: red;
+	padding: 7px 20px;
+	font-size: 12px;
+	border-radius: 22px;
+	/* margin-left: 10px; */
+	cursor: pointer;
+}
+.position{
+	position: relative;
+	display: flex;
+	gap: 20px;
+	
+}
+
+#faq{
+	width: 300px;
+	height: 200px;
+	border: 2px solid red;
+
+}
+#faf{
+	width: 300px;
+	height: 200px;
+}

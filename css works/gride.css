@@ -1,0 +1,228 @@
+body {
+	padding: 0;
+	margin: 0;
+
+}
+
+
+nav {
+	margin-top: 20px;
+
+}
+
+
+.logo {
+	padding-right: 70px;
+	line-height: 2px;
+}
+
+
+.navrule {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	column-gap: 100px;
+
+}
+
+
+ul {
+
+	list-style-type: none;
+	column-gap: 20px;
+	display: flex;
+
+}
+
+
+li {
+	margin: 0 10px;
+
+
+}
+
+
+.one {
+	display: flex;
+	gap: 50px;
+}
+
+
+button {
+	border: 0;
+	outline: 0;
+	background: black;
+	color: #fff;
+	padding: 7px 20px;
+	font-size: 12px;
+	border-radius: 15px;
+	/* margin-left: 10px; */
+	cursor: pointer;
+}
+
+
+.faq {
+	font-size: 20px;
+	text-align: center;
+	margin: 40px;
+	align-items: center;
+	background: rgb(162, 162, 57);
+	color: aquamarine;
+}
+
+
+.two {
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+.box {
+	grid-auto-flow: row;
+	gap: var(grid-auto-row);
+	display: grid;
+	grid-template-rows: max-content;
+	border-radius: 30px;
+	border: 20px solid white;
+
+}
+
+
+.man {
+
+	padding-top: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr  1fr;
+	border: 20px;
+	row-gap: 20px;
+	padding: 20px;
+	size: 20px;
+	
+
+}
+
+
+.pastor {
+	font-size: 15px;
+	text-align: center;
+	background: white;
+	color: black;
+	border: 2px solid black;
+	margin-top: 90px;
+	margin-left: 700px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 100px;
+	
+
+}
+
+
+#mod{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	font-family: serif;
+	justify-content: center;
+	column-gap: 60px;
+}
+
+
+#img {
+	width: 200px;
+	height: 500px;
+	margin-right: 8px;
+	margin-left: 50px;
+	column-gap: 40px;
+	border: 50px;
+	gap: 20px;
+
+
+}
+
+
+#rom{
+	text-align: center;
+	background-color: rgb(228, 202, 117);
+	padding-top: 30px;
+	padding-bottom: 60px;
+	margin-bottom: 20px;
+}
+
+
+#mac{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+
+.tag{
+	display: flex;
+	column-gap: 10px;
+	padding-right: 180px;
+}
+
+
+.tag-2{
+	display: flex;
+	column-gap: 10px;
+	padding-left: 180px;
+}
+
+
+@media screen and (max-width) {
+	
+
+	.navrule {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		column-gap: 100px;
+	
+	}
+}
+
+@media screen and (max-width) {
+	.faq {
+		font-size: 20px;
+		text-align: center;
+		margin: 40px;
+		align-items: center;
+		background: rgb(162, 162, 57);
+		color: aquamarine;
+	}
+	
+	
+	.two {
+		margin-top: 100px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width) {
+
+	#mac{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+
+.tag{
+	display: flex;
+	column-gap: 10px;
+	padding-right: 180px;
+}
+
+
+.tag-2{
+	display: flex;
+	column-gap: 10px;
+	padding-left: 180px;
+}
+}
